@@ -1,6 +1,3 @@
-
-// solve task with usage of
-// static arrays
 #include <iostream>
 #include <random>
 
@@ -61,6 +58,7 @@ void FillArr(int* arr, int size) {
 		int max_b = (a < b) ? b : a;
 		std::mt19937 gen(45218965);
 		std::uniform_int_distribution<int> dist(min_a, max_b);
+		std::cout << "Элементы массива: ";
 		for (int i = 0; i < size; ++i) {
 			arr[i] = dist(gen);
 			std::cout << arr[i] << ' ';
