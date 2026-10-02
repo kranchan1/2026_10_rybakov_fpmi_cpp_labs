@@ -14,8 +14,12 @@ int main()
 	setlocale(LC_ALL, "rus");
 	int arr[MAX_LENGTH];
 	int n, M;
-	std::cout << "Введите размер массива: ";
+	std::cout << "Введите размер массива до " << MAX_LENGTH << ": ";
 	TryRead(n);
+	if (n > MAX_LENGTH) {
+		std::cout << "Размер массива слишком большой";
+		std::exit(-1);
+	}
 	std::cout << "Введите число M, такое что все элементы массива будут больше его по модулю: ";
 	TryRead(M);
 	FillArr(arr, n);
