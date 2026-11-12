@@ -1,0 +1,18 @@
+11/12/26 23:44:11 | opening file "input.txt"
+11/12/26 23:44:11 | file "input.txt" has been opened successfully
+11/12/26 23:44:11 | opening file "output.txt"
+11/12/26 23:44:11 | file "output.txt" has been opened successfully
+11/12/26 23:44:11 | reading lines from "input.txt"
+11/12/26 23:44:11 | got line: "Hello hello HELLO"
+11/12/26 23:44:11 | finding repeats in line and deleting them
+11/12/26 23:44:11 | redact line: "Hello  "
+11/12/26 23:44:11 | writing line to "output.txt"
+11/12/26 23:44:11 | got line: "Hello,,, hEllo HELLO, HI, heLLo.."
+11/12/26 23:44:11 | finding repeats in line and deleting them
+11/12/26 23:44:11 | redact line: "Hello,,,  , HI, .."
+11/12/26 23:44:11 | writing line to "output.txt"
+11/12/26 23:44:11 | got line: "a a a,,, a... a,,,   ,"
+11/12/26 23:44:11 | finding repeats in line and deleting them
+11/12/26 23:44:11 | redact line: "a  ,,, ... ,,,   ,"
+11/12/26 23:44:11 | writing line to "output.txt"
+11/12/26 23:44:11 | program has ended with code 0
